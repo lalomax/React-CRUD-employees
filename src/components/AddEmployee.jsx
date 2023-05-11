@@ -76,7 +76,7 @@ export const AddEmployee = () => {
           <div className="flex items-center justify-between">
             <button
               disabled={!canSave}
-              className="mt-5 bg-green-400 w-full hover:bg-green-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline disabled:bg-green-50 "
+              className="mt-5 bg-green-400 w-full hover:bg-green-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline disabled:bg-green-100 disabled:text-gray-300 "
             >
               Add Employee
             </button>
