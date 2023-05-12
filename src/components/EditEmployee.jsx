@@ -1,10 +1,9 @@
-import React, { useState, useContext, useEffect } from 'react';
+import { useState, useContext, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 import { GlobalContext } from '../context/GlobalState';
 
 export const EditEmployee = (route) => {
-  
   const navigate = useNavigate();
 
   const { employees, editEmployee } = useContext(GlobalContext);
@@ -42,7 +41,7 @@ export const EditEmployee = (route) => {
   }
 
   return (
-    <React.Fragment>
+    <>
       <div className="w-full max-w-sm container mt-20 mx-auto">
         <form onSubmit={onSubmit}>
           <div className="w-full mb-5">
@@ -100,6 +99,6 @@ export const EditEmployee = (route) => {
           </div>
         </form>
       </div>
-    </React.Fragment>
+    </>
   );
 };
