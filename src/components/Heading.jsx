@@ -11,7 +11,6 @@ export const Heading = () => {
           <h5 className="text-gray-900 font-bold text-xl">Employee Listing</h5>
         </div>
         <div className="flex-grow text-right px-4 py-2 m-2">
-          {/* <Link to="/add"> */}
           <button
             onClick={() => navigate('/add')}
             className="bg-green-400 hover:bg-green-500 text-white font-semibold py-2 px-4 rounded inline-flex items-center"
@@ -34,7 +33,6 @@ export const Heading = () => {
             </svg>
             <span className="pl-2">Add Employee</span>
           </button>
-          {/* </Link> */}
         </div>
       </div>
     </div>

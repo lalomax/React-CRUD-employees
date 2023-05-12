@@ -4,7 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { GlobalContext } from '../context/GlobalState';
 
 export const EditEmployee = (route) => {
-  // let history = useHistory();
+  
   const navigate = useNavigate();
 
   const { employees, editEmployee } = useContext(GlobalContext);

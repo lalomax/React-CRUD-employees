@@ -23,7 +23,6 @@ export const EmployeeList = () => {
                 </span>
               </div>
               <div className="flex-auto text-right px-4 py-2 m-2">
-                {/* <Link to={`/edit/${employee.id}`} title="Edit Employee"> */}
                 <button
                   onClick={() =>
                     navigate('/edit', { state: { id: employee.id } })
@@ -46,7 +45,6 @@ export const EmployeeList = () => {
                     <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
                   </svg>
                 </button>
-                {/* </Link> */}
                 <button
                   onClick={() => removeEmployee(employee.id)}
                   className="block bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-full inline-flex items-center"
