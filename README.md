@@ -12,28 +12,50 @@
 
 # React CRUD employees
 
-<a class="tw-relative media-figure tw-screenshot" target="_blank" rel="noopener noreferrer" aria-describedby="open-in-new-tab" href="https://crud-employees.netlify.app" title="Go to site crud-employees"><picture class="tw-m-0 tw-p-0 tw-block tw-w-full tw-align-middle tw-max-w-full tw-h-auto tw-max-h-full tw-object-cover tw-aspect-screenshot"><img src="/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/66b3b23c7f7f7b0cc49f874e/screenshot_2024-08-07-17-43-53-0000.webp&amp;fit=cover&amp;h=330&amp;w=528" alt="" width="264" height="165" loading="lazy" class="tw-align-top tw-h-full tw-w-full"></picture></a>
+![image](https://github.com/user-attachments/assets/8301a91f-6a08-4aa8-b335-0e3d454b629e)
+
 
 ## Features
-* Responsive
-* Vanilla Javascript
-  
+
+This code establishes a basic React application with routing capabilities and global state management. It defines three main routes and provides a structure for additional components to be integrated. The use of react-router-dom and the Context API allows for dynamic content updates based on URL changes and shared data across components.  
+React Router Integration:
+
+* Uses BrowserRouter, Route, and Routes components from react-router-dom to enable routing functionality.
+* Defines three routes:
+1. /: Maps to the Home component.
+2. /add: Maps to the AddEmployee component.
+3. /edit: Maps to the EditEmployee component.
+
+* Global State Management:
+
+Employs the GlobalProvider component to manage global application state using the Context API.
+Wraps the entire application to make the state accessible to all components.
+* Component Structure:
+
+Imports and utilizes three components: Home, AddEmployee, and EditEmployee.
+These components are likely responsible for different sections or functionalities of the application.
+JSX Structure:
+
+Uses JSX syntax to define the component structure.
+Nestes GlobalProvider within BrowserRouter to ensure proper state management and routing.
+Defines routes within the Routes component.
+
 ## Technologies used
 
 This application is built with the following technologies
 
 *   Vite
-*   HTML, CSS, Javascript
+*   React
 
 ## Installation & Getting Started
 
 1. Clone the respository to your local machine.
     ```sh
-    git clone https://github.com/lalomax/portfolio.git
+    git clone https://github.com/lalomax/React-CRUD-employees.git
     ```
 1. Open directory
    ```sh
-   cd portfolio
+   cd React-CRUD-employees
    ```
 2. Install dependencies using either npm or yarn:
     ```
@@ -69,16 +91,16 @@ Please see the included LICENSE file for more information.
 ## Contact & Acknowledgements
 If you need help or have any feedback, please reach out (lalomax365@gmail.com).
 
-[contributors-shield]: https://img.shields.io/github/contributors/lalomax/portfolio.svg?style=for-the-badge
-[contributors-url]: https://github.com/lalomax/portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/lalomax/portfolio.svg?style=for-the-badge
-[forks-url]: https://github.com/lalomax/portfolio/network/members
-[stars-shield]: https://img.shields.io/github/stars/lalomax/portfolio.svg?style=for-the-badge
-[stars-url]: https://github.com/lalomax/portfolio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/lalomax/portfolio.svg?style=for-the-badge
-[issues-url]: https://github.com/lalomax/portfolio/issues
-[license-shield]: https://img.shields.io/github/license/lalomax/portfolio.svg?style=for-the-badge
-[license-url]: https://github.com/lalomax/portfolio/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/lalomax/React-CRUD-employees.svg?style=for-the-badge
+[contributors-url]: https://github.com/lalomax/React-CRUD-employees/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/lalomax/React-CRUD-employees.svg?style=for-the-badge
+[forks-url]: https://github.com/lalomax/React-CRUD-employees/network/members
+[stars-shield]: https://img.shields.io/github/stars/lalomax/React-CRUD-employees.svg?style=for-the-badge
+[stars-url]: https://github.com/lalomax/React-CRUD-employees/stargazers
+[issues-shield]: https://img.shields.io/github/issues/lalomax/React-CRUD-employees.svg?style=for-the-badge
+[issues-url]: https://github.com/lalomax/React-CRUD-employees/issues
+[license-shield]: https://img.shields.io/github/license/lalomax/React-CRUD-employees.svg?style=for-the-badge
+[license-url]: https://github.com/lalomax/React-CRUD-employees/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/orlando-flores365/
 [product-screenshot]: images/screenshot.png
