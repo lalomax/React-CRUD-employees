@@ -66,16 +66,6 @@ This application is built with the following technologies
     npm run dev
     ```
 
-## Usage
-
-Personal data should be filled in the  `main.js`.
-
-1. Navigate to the 'main.js' folder.
-2. Fill in your details in the appropriate sections.
-3. The application will automatically update your portfolio.
-
-New images should be uploaded in the `public/images` directory.
-
 ## Contributing
 Contributions to this project are welcome. Please ensure to follow these guidelines:
 
